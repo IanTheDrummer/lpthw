@@ -1,0 +1,1 @@
+Exercise 10: Yet again, I continue to work on printing in exercise 10. I did learn that if you put "/t" before a string, it will tab it. I also learned how to split text with a backslash. Lastly I found out that putting double backslashes create an even bigger split. This exercise did give me some valuable information!
