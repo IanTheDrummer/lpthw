@@ -1,0 +1,1 @@
+Exercise 12: In exercise 12, I did nothing but try and rewrite my code from exercise 11. I did this by putting a string that I want for a prompt inside (). This basically means that I can completely rewrite my 11th exercise using nothing but raw_input to do all of the prompting. Overall this was a fun exercise!
