@@ -1,0 +1,1 @@
+Exercise 14: In exercise 14, I worked on prompting and passing. I also again worked with "%r" and "%s". I did include an argument that needs to be passed in order to open the file. Again, I used Raw_input. Overall this was good review!
