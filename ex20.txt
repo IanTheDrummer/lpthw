@@ -1,0 +1,1 @@
+Exercise 20: In exercise twenty, I worked on just some more review stuff. I again used functions and used files. The study drills weren't much of a problem either. I used "f" as one of my variables. An argument was included as well! I find it amazing that I typed so much script only to get a tiny amount of text when I ran the file! Overall this was decent review exercise!
