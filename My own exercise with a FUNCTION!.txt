@@ -1,0 +1,11 @@
+def ian_is_awesome(awesomness_level, coolness_level):
+	print "Ian has %d awesomness points!" % awesomness_level
+	print "Ian has %d coolness points!" % coolness_level
+	print "Wow, he must be a super guy!"
+	print "Get ready for his awesomness. \n"
+	
+print "I'm about to use variables from my script:"
+awesomness_level = 12
+coolness_level = 800
+
+ian_is_awesome(awesomness_level, coolness_level)
