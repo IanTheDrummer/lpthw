@@ -1,4 +1,4 @@
-print "You enter a dark room with two doors. Do you go through door #1 or #2?"
+print "You enter a dark room with two doors. Do you go through door #1 or #2 or #3?"
 
 door = raw_input("> ")
 
@@ -16,7 +16,7 @@ elif bear == "2":
 else:
 	print "Well, doing %s is probably better. Bear runs away." % bear
 	
-elif door == "2":
+if door == "2":
 	print "You stare into the endless abyss at Cthulhu's retina."
 	print "1. Blueberries."
 	print "2. Yellow Jacket clothespins."
@@ -31,3 +31,20 @@ elif door == "2":
 		
 else:
 	print "You stumble around and fall on a knife and die. Good job!
+	
+if door == "3":
+	print "You've found 100,000,000 dollars! What will you spend it on?"
+	print "1. A Ferrari."
+	print "2. A Banana."
+	print "3. Funding Iona Community."
+	
+	money = raw_input("> ")
+	
+	if money == "1":
+		print "You end up wrecking the car in the dealership parking lot. Good Job!"
+		
+	elif money == "2":
+		print "A nearby bear finds you and steals you banana. Good Job!"
+	else money == "3":
+		print "The money turns Iona into a million dollar company and they get robbed causing Father Bob to join Al Queda and suicide bomb everyone in the church."
+		
