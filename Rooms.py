@@ -86,7 +86,7 @@ class Panda(Room):
 		print "as you ponder kissing the panda you realize that the door"
 		print "could be your way out. So what will you do?"
 		
-		answer == raw_input("> ").lower()
+		answer = raw_input("> ").lower()
 		
 		if answer == "kill":
 			print "You charge at the panda with pure hatred! Sadly, he"
@@ -140,13 +140,13 @@ class Ocean(Room):
 			
 			a = raw_input("> ").lower()
 			
-			if a == "yes":
+			if a == "no":
 				print "You continue to swim and eventually come across a lonely"
 				print "fisherman in his tiny boat. He offers you help and sails"
 				print "you to shore where you find a small house."
 				return 'ghost'
 				
-			elif a == "no":
+			elif a == "yes":
 				print "You tie your hands together with your shoelaces and sink"
 				print "to the ocean floor. Five seconds later you glance up at"
 				print "the golden light seeping through the crystal clear water"
