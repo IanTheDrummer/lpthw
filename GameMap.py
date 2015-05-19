@@ -18,7 +18,7 @@ class Map(object):
 		self.start_room = start_room
 		
 	def next_room(self, room_name):
-		return Map.rooms.get(room_name)
+		return Map.rooms[room_name]
 		
 	def get_start_room(self):
 		return self.next_room(self.start_room)

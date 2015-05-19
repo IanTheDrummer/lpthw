@@ -24,10 +24,7 @@ class Startup(Room):
 		elif answer == "n":
 			return 'corridor'
 			
-		else:
-			print "I don't understand that."
-			return 'startup'
-		
+			
 class Death(Room):
 	def enter(self):
 		print "Wow... you died. I've seen old people do better."
@@ -71,10 +68,6 @@ class Corridor(Room):
 		elif answer == "yell":
 			print "You yell into the darkness and nothing happens."
 			return 'corridor'
-			
-		else:
-			print "I don't understand that."
-			return 'corridor'
 		
 
 class Panda(Room):
@@ -107,10 +100,6 @@ class Panda(Room):
 			print "You scream with all your might at the fat panda and he"
 			print "grabs you and rips you in two."
 			return 'death'
-			
-		else:
-			print "I don't understand that."
-			return 'panda'
 			
 			
 class Ocean(Room):
@@ -153,16 +142,16 @@ class Ocean(Room):
 				print "as you slowly drown."
 				return 'death'
 				
+			else:
+				print "I don't understand that."
+				return 'ocean'
+			
 		elif answer == "yell":
 			print "You continue to swim and eventually come across a lonely"
 			print "fisherman in his tiny boat. He offers you help and sails"
 			print "you to shore where you find a small house."
-			return 'ghost'
-			
-		else:
-			print "I don't understand that."
-			return 'ocean'
-			
+			return 'ghost'			
+
 	
 class Ghost(Room):
 	
@@ -191,11 +180,7 @@ class Ghost(Room):
 				print "you fall down through the earth's crust into the underworld!"
 				return 'death'
 				
-		else:
-			print "I don't understand that."
-			return 'ghost'
 				
-			
 class Minion(Room):
 
 	def enter(self):
@@ -229,9 +214,6 @@ class Minion(Room):
 		elif answer == "forward":
 			print "You can't go forward you idiotic dirtbag there is a banshee in front of you!"
 			return 'minion'
-			
-		else:
-			print "I don't understand that."
 		
 
 class Cell(Room):
@@ -280,7 +262,3 @@ class Fadafingling(Room):
 		elif answer == "stay":
 			print "You go mad at the wonderful sight of the portal and eventually eat yourself."
 			return 'death'
-			
-		else:
-			print "I don't understand that."
-			return 'fadafingling'
