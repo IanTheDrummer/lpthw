@@ -1,2 +1,7 @@
 ex25.pyc
 Crap.txt
+*.pyc
+.Python
+bin/
+lib/
+include/
